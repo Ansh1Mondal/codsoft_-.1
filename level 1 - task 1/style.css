@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Heebo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(83, 10, 10);
+  font-family: "Bruno Ace SC", sans-serif;
+  font-family: "Heebo", sans-serif;
+  background-color: rgb(224, 205, 180);
+}
+.container {
+  z-index: 2;
+  /* background-color: rgb(224, 205, 180); */
+  width: 100%;
+  height: 230vh;
+  display: grid;
+  grid-template-rows: 6% 47% 47%;
+}
+.nav {
+  /* height: 30px; */
+  /* margin-top: 0; */
+  padding-left: 20px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 40% 15% 15% 15% 15%;
+  align-items: center;
+  list-style: none;
+  /* justify-items: center; */
+}
+.nav-head {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.nav a {
+  text-decoration: none;
+}
+.bag-img {
+  height: 60px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.body {
+  z-index: 2;
+  height: fit-content;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+.pic img {
+  height: 30rem;
+  width: 30rem;
+  filter: drop-shadow(0 0 20px grey);
+}
+
+.about {
+  display: grid;
+  grid-template-rows: 15% 75% 10%;
+  padding: 40px;
+  height: 88%;
+}
+
+.about button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(83, 10, 10);
+  color: rgb(224, 205, 180);
+}
+.about img {
+  position: absolute;
+  height: 80rem;
+  bottom: -58rem;
+  left: 15rem;
+  opacity: 30%;
+  z-index: 1;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(83, 10, 10);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(73, 8, 8);
+}
